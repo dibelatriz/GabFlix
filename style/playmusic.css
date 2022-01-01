@@ -1,0 +1,20 @@
+.telafundo {
+    font-size: 17px;
+    background-image: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.10)100%), url("/img/netflixposterbackgroundimage.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.telafundo .descricao{
+    margin-top:5px;
+    margin-left:15px;
+    margin-bottom:40px;
+    text-align: justify;
+}

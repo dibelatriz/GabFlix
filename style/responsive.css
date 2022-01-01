@@ -1,0 +1,29 @@
+/* até 700px */
+@media screen and (max-width:700px) {
+    header .container{
+        display:flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-top: 5px;
+        width:180px;
+        height:50px;
+    }
+    .descricao{
+        width:80%;
+        font-size:16px;
+    }
+}
+@media screen and (min-width: 701px){
+    .descricao{
+        width:30%;
+        font-size:23px;
+    }
+    .descricao:hover{
+        transition: .5s;
+        box-shadow: 1px 1px 2px 2px #141414;
+    }
+    .tituloposter img{
+        height:135px;
+    }
+}

@@ -1,0 +1,115 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* Elementos BASE */
+body{
+    background-color: var(--preto);
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+}
+header{
+    position: fixed;
+    width:100%;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0, 0, 0,.50) 100%);
+    z-index: 999;
+}
+header .container{    
+    margin: 5px 5px 5px 5px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{  
+    margin-left:10px;
+    font-family: 'Arial black', Times;
+    font-size:40px;
+}
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right:10px;
+}
+header nav a:hover{
+    color:#fff;
+}
+/* MOVIE START */
+.movie-started{
+    font-size: 17px;
+    background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.10)100%), url('https://www.themoviedb.org/t/p/original/gkINAPOuwUFo2Qphs3OUUbjUKUZ.jpg'); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.movie-started .descricao{
+    margin-top:5px;
+    margin-left:15px;
+    margin-bottom:40px;
+    text-align: justify;
+}
+.descricao{
+    padding: 19px 19px 19px 19px;
+    background-color: rgba(0,0,0,.24);
+    box-shadow: 1px 1px 2px 1px #6e6a6a; 
+    color:#ffffffe8;
+}
+.tituloposter img{
+    padding:15px;
+    height: 100px;
+}
+.titulo{
+    margin-top:5%;
+    margin-bottom:5px;
+    font-size:22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.botao{
+    background: rgba(0,0,0,.50);
+    border:none;
+    color:white;
+    padding:15px 30px;
+    margin: 5px 5px 5px 10px;
+    cursor: pointer;
+    transition: .5s ease all;
+    border-radius: 90px;
+}
+.botao:hover{
+    background-color: rgb(243, 128, 128);
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0,.50) ;
+    color:black;
+    font-weight: bold;
+}
+.botao i {
+    margin:2px;
+}
+.box-filme{
+    height:100%;
+    width: 100%;
+    display: block;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+#rodape{
+    margin:15px 25px 40px 25px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    color: #aaa;
+    align-items: center;   
+}
