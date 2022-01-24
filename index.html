@@ -38,13 +38,14 @@
                 </div>
                 <p class="descricao">When a failed nuclear fusion experiment results in an explosion that kills his wife, Dr. Otto Octavius (Alfred Molina) is transformed into Dr. Octopus, a cyborg with deadly metal tentacles.</p>
                 <div class="botoes">
-                    <button role="button" class="botao" id="demo" onclick=" window.open('https://www.adorocinema.com/filmes/filme-46112/trailer-19337357/','_blank')">
+                    
+                    <button role="button" class="botao" id="assistir">
                         <i class="fas fa-play"></i>
                         WATCH NOW
                     </button>
-                    <button role="button" class="botao" id="demo" onclick=" window.open('https://www.youtube.com/watch?v=1UAzz8ncM68','_blank')">
-                        <i class="fas fa-play"></i>
-                        TRAILLER
+                    <button role="button" class="botao" id="demo" onclick=" window.open('https://www.adorocinema.com/filmes/filme-46112/trailer-19337357/','_blank')">
+                        <i class="fas fa-info"></i>
+                        INFO
                     </button>
                     <button role="button" class="botao" onclick=" window.open('likelist.html','_blank')">
                         <i class="fas fa-heart"></i> 
@@ -53,6 +54,10 @@
             </div>
         </div>
     </main>
+    <div id="trailerMovie">
+        <div><span id="fechar">X</span></div>
+        <iframe width="900" height="900" src="https://www.youtube.com/embed/1UAzz8ncM68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     <div class="carrousel-movies">
         <div class="owl-carousel owl-theme">
@@ -77,22 +82,25 @@
             <div class="item">
                 <img class="box-filme" src="img/007ttimetodie.jpg" alt="" srcset="">
             </div>
+            <div class="item">
+                <img class="box-filme" src="img/johnwick2.jpg" alt="John Wick" srcset="">
+            </div>
         </div>
     </div>
     <div class="carrousel-movies">
         <h2>Filmes Assistidos:</h2>
         <div class="owl-carousel owl-theme">
             <div class="item">
-                <img class="box-filme" src="img/Breakfast-Tiffany.jpg" alt="Bonequinha de Luxo" srcset="">
+                <img class="box-filme" src="img/TtheUntouchebles.jpg" alt="Os Intocaveis" srcset="">
             </div>
             <div class="item">
                 <img class="box-filme" src="img/interstellar.jpg" alt="InterStellar" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="img/johnwick2.jpg" alt="John Wick" srcset="">
+                <img class="box-filme" src="img/johnwick.jpg" alt="John Wick" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="img/batman.jpg" alt="Batman: Cavalheiro das Trevas" srcset="">
+                <img class="box-filme" src="img/batman.jpg" alt="Dejavu _ Denze" srcset="">
             </div>
             <div class="item">
                 <img class="box-filme" src="img/bradpittseven.jpg" alt="Viuva Negra" srcset="">
@@ -162,5 +170,7 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script src="js/owl/script.js"></script>
+
 </body>
 </html>

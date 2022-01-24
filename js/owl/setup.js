@@ -39,3 +39,10 @@ $(document).ready(function() {
         $('.window').hide();
     });
 });
+
+// function scrollToTop(){
+//     window.scrollTo({
+//         top:0,
+//         behavior:'smooth'
+//     })
+// }
