@@ -19,7 +19,7 @@
   <li>Utilização do carrousel da OWL, a partir do JQuery.</li>
 </ul>
 
-## Anexo
+## Project
 <b>
 Access the project by clicking <i><a href="https://dibelatriz.github.io/GabFlix/">here.</a></i><br>
 :grey_exclamation: Want to contribute? Feel free, make a pull request.</b> :smile:
